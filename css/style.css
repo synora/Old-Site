@@ -1,0 +1,149 @@
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  margin: 0px;
+  width: 100%;
+  font-family: "adelle-sans", sans-serif;
+  font-size: 14px;
+  line-height: 160%; }
+
+h2 {
+  font-family: "utopia-std-display", serif;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 120%; }
+
+h4 {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 160%; }
+
+.container {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0 16px; }
+
+header {
+  background-color: #2b292c;
+  color: #ffffff;
+  padding-bottom: 75px; }
+
+header p {
+	font-family: "utopia-std-display", serif;
+	font-size: 24px;
+	margin-top: 53px;
+	line-height: 120%; }
+
+.services {
+	background-color: #dbb583;
+	padding-bottom: 68px; }
+	.services h4 {
+		color: #2c2a2c;
+		margin-bottom: 0px;
+		margin-top: 50px; }
+	.services h2 { 
+		color: #2b292c;
+		margin: 0px; }
+	.services p, .services li {
+		color: #2b292c; }
+	.services p {
+		padding-bottom: 40px;
+		margin-bottom: 0px; }
+	.services ul {
+		list-style-image: url("../images/bullet.png");
+		margin: 0px;
+		padding-left: 20px; }
+
+.about-me {
+	background-color: #fefdfb;
+	padding-bottom: 75px; }
+	.about-me h4 {
+		color: #2c2a2c;
+		margin-bottom: 0px;
+		margin-top: 50px; }
+	.about-me h2 {
+		color: #2b292c;
+		margin: 0px; }
+	.about-me p {
+		color: #2c2a2c; }
+
+footer {
+	background-color: #dbb583;
+	padding-bottom: 35px; }
+
+footer h4 {
+	color: #2c2a2c;
+	margin-top: 50px;
+	margin-bottom: 0px; }
+
+footer h2 {
+	color: #2b292c;
+	margin: 0px; }
+
+footer p {
+	color: #2c2a2c; }
+
+.contact-last a {
+	color: #463e38;
+	text-decoration: none; }
+
+.social-links {
+	padding-top: 13px; }
+
+@media screen and (min-width: 768px) {
+	header p {
+		padding: 0 200px 0 200px; }
+	.skills {
+		float: left; 
+		width: 315px; }
+	.skills-last {
+		float: left;
+		margin-top: 115px;
+		padding-left: 100px; }
+	.me {
+		width: 315px; }
+	.contact {
+		width: 315px;
+		float: left; }
+	.contact-last {
+		float: left;
+		margin-top: 115px;
+		padding-left: 100px; }
+}
+
+@media screen and (min-width: 960px) {
+  .container {
+    max-width: 960px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
